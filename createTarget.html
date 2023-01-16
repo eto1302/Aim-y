@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>    
+    <link rel="stylesheet" href="style1.css">
+    <title>Aim-y/createTarget</title>
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="resources/logo.jpg"></a>
+        <a class="exit" href="index.html">Sign out</a>
+    </header>
+    <form>
+        <label class="small" for="name">Name: </label>
+        <input class="small" type="text" id="name" name="name"><br>
+        <label class="small" for="type">Type: </label>
+        <select class="small" id="type" name ="type">
+            <option>numeric</option>
+            <option>boolean</option>
+            <option>moneraty</option>
+            <option>task-based</option>
+        </select><br>
+        <label class="small" for="goal">Goal: </label>
+        <input class="small" type="text" id="goal" name="goal">
+    </form>
+    <button class="normal" onclick="location.href='details.html';">Create</button>

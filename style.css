@@ -1,0 +1,152 @@
+body {
+    background-color: #000000;   
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav{
+    font-size: 40px;
+    color: #FFA000;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+}
+
+.progress { 
+    height: 40px;
+    position: relative;
+    background: #555;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.progress > span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FFA000;
+    position: relative;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFA000;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #FFA000;
+}
+
+a {
+    font-size: 40px;
+    color: #FFA000;
+    text-decoration: none;    
+}
+
+input.targetCounter{
+    width: 40px;
+    font-size: 30px;
+    color: black;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    text-decoration: none;  
+}
+
+.goals {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+button.goal{
+    margin-left: 70%;
+    vertical-align: top;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 30px;
+    color: black;
+    background-color: #FFA000;
+    text-decoration: none;
+}
+
+button.targetButton{
+    margin-left: 20px;
+    vertical-align: center;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    background-color: #FFA000;
+}
+
+.tasks > li{
+    padding-bottom: 20px;
+}
+
+a.details{
+    display: inline;
+}
+
+li.goal{
+    padding-bottom: 1%;
+}
+
+form, .targetLabel{
+    font-size: 40px;
+    color: #FFA000;
+}
+
+input{
+    margin: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 300px;
+    font-size: 30px;
+}
+
+button.createGoal{
+    vertical-align: top;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #FFA000;
+}
+
+.column {
+    display: flexbox;
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    clear: both;
+}

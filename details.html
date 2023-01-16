@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="header">
+        <ul class="navigation">
+            <li class="logo">
+                <a href="home.html"><img src="resources/logo.jpg"></a>
+            </li>
+            <li>
+                <a class="nav" href="index.html">Sign out</a>
+            </li>
+        </ul>
+    </div>
+    <h1>
+        Goal 1
+    </h1>
+    <div class="progress">
+        <span style="width: 50%"></span>
+    </div>    
+    <h1>
+        12/07/2023
+    </h1>
+    <div class="row">
+        <div class="column">
+            <h2>Description:</h2>
+            <h3>Specific: I wanna lose 15 kg</h3>
+            <h3>Measurable: I will mark every day how much I weigh</h3>
+            <h3>Attainable: I have more free time to workout now.</h3>
+            <h3>Relevant: I have to start living a healthier lifestyle</h3>
+            <h3>Timely: I wanna lose 5 kgs every two months, starting 12/01/2023</h3>
+        </div>
+        <div class="column">
+            <h2>Targets:</h2>
+            <ul class="tasks">
+                <li>
+                    <a href="editTask.html">Numeric Target</a>
+                    <input class="targetCounter"></input>
+                    <label class="targetLabel">0/0</label>
+                    <button class="targetButton">+</button>
+                </li>
+                <li>
+                    <a href="editTask.html">Boolean Target</a>
+                    <button class="targetButton">X</button>
+                </li>
+                <li>
+                    <a href="editTask.html">Monetary Target</a>
+                    <input class="targetCounter"></input>
+                    <label class="targetLabel">0/0</label>
+                    <button class="targetButton">+</button>
+                </li>
+                <li>
+                    <a href="editTask.html">Task-based Target</a>
+                    <button class="targetButton">X</button>
+                </li>
+                <button class="createGoal" onclick="location.href='createTarget.html';">Add Target</button>
+            </ul>
+        </div>
+    </div>
+</body>

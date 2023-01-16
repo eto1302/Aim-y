@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="navigation">
+            <li class="logo">
+                <a href="home.html"><img src="resources/logo.jpg"></a>
+            </li>
+            <li>
+                <a class="nav" href="index.html">Sign out</a>
+            </li>
+        </ul>
+    </div>
+    <form class="createGoalForm">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"><br>
+        <label for="dueDate">Due Date: </label>
+        <input type="text" id="dueDate" name="dueDate"><br>         
+        <label>Description: </label><br>
+        <label for="specificDescription">Specific (What is the goal about?): </label>
+        <input type="text" id="specificDescription" name="specificDescription"><br>   
+        <label for="measurableDescription">Measurable (How will I measure the goal?): </label>
+        <input type="text" id="measurableDescription" name="measurableDescription"><br>   
+        <label for="attainableDescription">Attainable (Why is the goal achievable now?): </label>
+        <input type="text" id="attainableDescription" name="attainableDescription"><br>   
+        <label for="relevantDescription">Relevant (Why is the goal realistic and relevant to me?): </label>
+        <input type="text" id="relevantDescription" name="relevantDescription"><br>   
+        <label for="timelyDescription">Timely (What are some time markers for my goal?): </label>
+        <input type="text" id="timelyDescription" name="timelyDescription"><br>      
+    </form>
+    <button type="submit" class="createGoal" value="Submit" onclick="location.href='details.html';">Create</button>
+</body>
